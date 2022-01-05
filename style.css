@@ -26,3 +26,10 @@ button:hover{
    justify-content: center;
    align-items: center;
 }
+
+input{
+    transition: 2s;
+}
+input:hover{
+    color: blueviolet;
+}
