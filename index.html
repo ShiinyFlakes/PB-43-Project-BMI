@@ -17,7 +17,6 @@
     <h2>BMI-Tabelle nach Alter</h2>
     <div>
         <table style="width: 250px; margin: 0 10px 10px 0; float: left;" summary="BMI-Tabelle" bgcolor="#FFFFFF">
-            <caption><strong>BMI-Tabelle nach Alter</strong></caption>
             <thead>
                 <tr>
                     <th scope="col">Alter</th>
@@ -65,7 +64,7 @@
        placeholder="in vollen kg"
         title="Erlaubt sind Zahlen zwischen 1 und 400">
     <span>Grösse:</span>
-    <input type="number" name="groesse" id="groesse" min="1" max="400" required="" placeholder="in cm"
+    <input type="number" name="groesse" id="groesse" min="1" max="400" required="" placeholder="in m, z. B. 1.75"
         title="Erlaubt sind Zahlen zwischen 1 und 400">
     <span>Alter:</span>
     <input type="number" name="alter" id="alter" min="19" max="200" required="" placeholder="in Jahren"
@@ -76,8 +75,8 @@
         </div>
     </div>
     <div class="d-flex">
-<h2>Ihre BMI:</h2>
-<h2 id="wert" class="font-italic text-danger">&nbsp;0</h2>
+<h2>Ihre BMI:&nbsp;</h2>
+<h2 id="wert" class="font-italic text-danger">0</h2>
 </div>
 </section>
 <section class="container bg-primary-1 mt-3">
@@ -89,6 +88,8 @@
 </section>
 <section class="container">
     <h2>Formel zur Berechnung des BMI</h2>
+    <img src="https://www.tk.de/resource/image/2086920/10x7/600/420/93a7dfefc4bb24158a62930b4c86937c/QI/905879308-whr.jpg"
+        alt="" sizes="" srcset="">
        <p> Zu Berechnung des Body Mass Indexes wird die relativ einfache BMI-Formel angewandt: BMI=(Gewicht in
         kg)/(Körpergroße in m)².
         Der errechnete Wert muss anschließend mit einer Wertetabelle abgeglichen werden, um auswerten zu können, ob eine
