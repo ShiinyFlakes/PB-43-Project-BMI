@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+    <link rel="shortcut icon" href="./fave.png" type="image/x-icon">
+
+</head>
+<body>
+    <h1>Der Body-Mass-Index (BMI)</h1>
+       <h3>
+
+        Der Body-Mass-Index (BMI) wird benutzt, um den Körperfettanteil eines Menschen zu schätzen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht:
+        </h3>
+   
+        <img id="formul" src="./bmi_berechnungpng_replacement_image.png" alt="BMI logik">
+        
+    <h3>Je nach BMI wird das Gewicht in verschiedene Kategorien eingeteilt:</h3>
+      
+      <div id="tabel">
+        <table>  
+          <tr>
+              <th>BMI</th>
+              <th>Medizinischer Gewichtsstatus </th>
+          </tr>
+          <tr>
+              <td>unter 18,5 </td>
+              <td>Untergewicht </td>
+          </tr>
+          <tr>
+            <td>18,5 bis 24,9 </td>
+            <td>Normalgewicht </td>
+        </tr>
+        <tr>
+            <td>25 bis 29,9 </td>
+            <td>Übergewicht </td>
+        </tr>
+        <tr>
+            <td>30 bis 34,9 </td>
+            <td>Adipositas Grad 1 </td>
+        </tr>
+        <tr>
+            <td>35 bis 39,9 </td>
+            <td>Adipositas Grad 2 </td>
+        </tr>
+        <tr>
+            <td>über 40 </td>
+            <td>Adipositas Grad 3 </td>
+        </tr>
+       
+</table>  
+</div>
+
+<img id="heighKalc" src="./adipositas_bmi_dejpg_replacement_image.jpg" alt="gewicht">
+        
+   <h2>BMI Kalkulator:</h2>
+<input id="kilogram" type="number" placeholder="KG">
+ <input id="height" type="number" placeholder="Höhe">
+        <button onclick="calculate()">Berechne</button>
+        <span id="result"></span>
+        <script src="index.js"></script>
+</body>
+</html>

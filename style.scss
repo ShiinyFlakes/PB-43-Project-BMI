@@ -1,0 +1,26 @@
+body{
+    table,th,td{
+        border: 1px solid black;
+        font-size:20px;
+        background-color: aqua;
+        
+    }
+    #formul{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tabel{
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    button:hover{
+        background-color:limegreen;
+    }
+        #heighKalc{
+            background-color:red;
+        }
+   
+}
