@@ -52,7 +52,7 @@
             </tbody>
         </table>
 <section class="container bg-light">
-    <div>Geschlecht
+    <div class="m-2">Geschlecht
     <label>
         <input type="radio" class="mr-2" name="geschlecht" value="frau" id="frau" checked="checked">weiblich
     </label>
@@ -60,10 +60,14 @@
         <input type="radio" class="ml-4 mr-2" name="geschlecht" value="herr" id="herr">männlich
     </label>
     </div>
-    <input type="number" name="gewicht" id="kg" min="1" max="400" required="" placeholder="in vollen kg"
+   <span>Gewicht:</span> 
+   <input type="number" name="gewicht" id="kg" min="1" max="400" required=""
+       placeholder="in vollen kg"
         title="Erlaubt sind Zahlen zwischen 1 und 400">
+    <span>Grösse:</span>
     <input type="number" name="groesse" id="groesse" min="1" max="400" required="" placeholder="in cm"
         title="Erlaubt sind Zahlen zwischen 1 und 400">
+    <span>Alter:</span>
     <input type="number" name="alter" id="alter" min="19" max="200" required="" placeholder="in Jahren"
        title="Erlaubt sind Zahlen zwischen 19 und 200">
     <div class="row mt-2">
@@ -71,8 +75,26 @@
         <button class="btn bg-danger" type="submit" onClick="bmiRechner()">BMI Berechnen</button>
         </div>
     </div>
+    <div class="d-flex">
 <h2>Ihre BMI:</h2>
-<h3 id="wert">Wird gereschnet</h3>
+<h2 id="wert" class="font-italic text-danger">&nbsp;0</h2>
+</div>
+</section>
+<section class="container bg-primary-1 mt-3">
+    <h2>BMI-Rechner - Body Mass Index berechnen</h2>
+        <p>Der BMI (Body Mass Index) ist ein Maß für die Bewertung des Körpergewichts, indem er das Gewicht in Relation zu
+        der Körpergröße setzt. Aufgrund der einfachen Messung ist die Berechnung des BMI das am häufigsten verwendete
+        Diagnoseverfahren zur Einordnung der Körperlast. Anhand des ermittelten BMI-Werts lässt sich schnell aussagen,
+        ob eine Person Normalgewicht, Übergewicht oder Untergewicht hat.</p>
+</section>
+<section class="container">
+    <h2>Formel zur Berechnung des BMI</h2>
+       <p> Zu Berechnung des Body Mass Indexes wird die relativ einfache BMI-Formel angewandt: BMI=(Gewicht in
+        kg)/(Körpergroße in m)².
+        Der errechnete Wert muss anschließend mit einer Wertetabelle abgeglichen werden, um auswerten zu können, ob eine
+        Person normalgewichtig, übergewichtig oder untergewichtig ist. Die WHO hat hierfür besondere Grenzen definiert,
+        wobei sich für Männer und Frauen unterschiedliche Ergebnisse ergeben. Eine solche Auswertung erhalten Sie in den
+        Ergebnissen nach dem Ausfüllen und Ausführen des BMI-Rechners</p>
 </section>
 <script src="./script.js"></script>
 </body>
