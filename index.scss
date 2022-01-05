@@ -1,0 +1,46 @@
+#tabelle {
+  background-image: url(./KSB-Blog_BMI_Content-01-1024x1024.png);
+  height: 500px;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+
+#space {
+  margin: 50px;
+}
+
+#grey {
+  background-color: wheat;
+  border: 2px solid black;
+}
+
+* {
+  text-align: center;
+}
+
+input {
+  height: 50px;
+  width: 100px;
+}
+
+input:hover {
+  color: red;
+  background: lightblue;
+}
+
+button {
+  height: 50px;
+}
+
+button:hover {
+  background: lightcoral;
+  color: royalblue;
+}
+
+body {
+  background-image: url(./7077351.jpg);
+}
+
+#wert {
+  border: 2px solid black;
+}
