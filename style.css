@@ -1,7 +1,6 @@
 body{
     background-image: url(derrick-lewis-promises-to-knock-out-curtis-blaydes-before-the-third-round.jpg);
     background-size: cover;
-    
 }
 h1{
     color: white;
@@ -9,7 +8,9 @@ h1{
 p{
     color:white;
 }
-
+table{
+    color: white;;
+}
 button{
     background-color: white;
     color: black;
@@ -20,11 +21,6 @@ button{
 }
 button:hover{
     background-color: rgb(223, 9, 62);
-}
-#flex{
-   display: grid;
-   justify-content: center;
-   align-items: center;
 }
 
 input{

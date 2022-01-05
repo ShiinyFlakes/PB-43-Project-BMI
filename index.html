@@ -12,11 +12,13 @@
     <div id="flex">
     <h1>Bodymassindex berechnen</h1>
     <form>
-        <input type="number" size="3" name="zahleins" placeholder="Gewicht in kg" id="a" />
-        <input type="number" size="3" placeholder="Höhe in Meter" name="zahlzwei" id="b" />  
+        <input type="number" size="3" name="zahleins" placeholder="Gewicht in kg" id="a" required />
+        <input type="number" size="3" placeholder="Höhe in Meter" name="zahlzwei" id="b" required />  
         <button type="button" onclick="bodyrechnen();">berechnen</button>
         <p id="ausgabe"></p>
     </form>
+    </div>
+<div>
     <p>Was ist der BMI?
 
 
@@ -56,5 +58,37 @@
         
         Dennoch ist der BMI eine schnelle und einfache Methode, das eigene Körpergewicht einzuordnen. Neuen wissenschaftlichen Daten zufolge scheint neben dem BMI vor allem der Bauchumfang nützlich zu sein, um die Gesundheitsgefährdung durch Übergewicht besser einzuschätzen. Daneben gibt es weitere Methoden, um das Normalgewicht zu berechnen.</p>
 </div>
+<table>
+    <tbody><tr>
+        <th width="33%"></th>
+        <th>BMI männlich</th>
+        <th>BMI weiblich</th>
+    </tr>
+    <tr>
+        <td width="33%">Untergewicht</td>
+        <td>unter 20</td>
+        <td>unter 19</td>
+    </tr>
+    <tr>
+        <td width="33%">Normalgewicht</td>
+        <td>20-25</td>
+        <td>19-24</td>
+    </tr>
+    <tr>
+        <td width="33%">Übergewicht</td>
+        <td>26-30</td>
+        <td>25-30</td>
+    </tr>
+    <tr>
+        <td width="33%">Adipositas</td>
+        <td>31-40</td>
+        <td>31-40</td>
+    </tr>
+    <tr>
+        <td width="33%">starke Adipositas</td>
+        <td>größer 40</td>
+        <td>größer 40</td>
+    </tr>
+</tbody></table>
 </body>
 </html>
